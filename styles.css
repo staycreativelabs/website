@@ -100,3 +100,21 @@ a.button {
   .button:hover {
       color: #e9d9a6;
   }
+
+.bg-image {
+    background: url(/src/img1.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
+}
+
+  @media (max-width: 1200px) {
+    .bg-image {
+        background: url(/src/img1.jpg) no-repeat center center; 
+        background-size: cover;
+        height: 50vh;
+    }
+    .html-mobile-background {
+        display: none;
+    }
+}
