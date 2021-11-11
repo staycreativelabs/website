@@ -102,7 +102,7 @@ a.button {
   }
 
 .bg-image {
-    background: url(/src/img1.jpg) no-repeat center center;
+    background: url(/website/src/img1.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     height: 60vh;
@@ -110,7 +110,7 @@ a.button {
 
   @media (max-width: 1200px) {
     .bg-image {
-        background: url(/src/img1.jpg) no-repeat center center; 
+        background: url(/website/src/img1.jpg) no-repeat center center; 
         background-size: cover;
         height: 50vh;
     }
